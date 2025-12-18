@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin, Linkedin, Github, Send } from 'lucide-react';
 export default function Contact() {
   return (
     <section id="contact" className="relative py-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
-      <div className="absolute inset-0 bg-[url('/public/assets/hero.jpg')] bg-cover bg-center opacity-10"></div>
+      <div className="absolute inset-0 bg-[url('/src/assets/hero.jpg')] bg-cover bg-center opacity-10"></div>
       <div className="relative z-10 max-w-6xl mx-auto px-6">
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 text-center">
           Me Contacter
