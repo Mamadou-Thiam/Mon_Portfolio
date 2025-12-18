@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-6xl mx-auto px-6 py-20 text-center">
         <div className="mb-8 inline-block">
           <img
-            src="/public/assets/image.jpg"
+            src="/public/assets/imgFond.jpeg"
             alt="Mamadou THIAM"
             className="w-48 h-48 rounded-full object-cover border-4 border-blue-500 shadow-2xl mx-auto"
           />
