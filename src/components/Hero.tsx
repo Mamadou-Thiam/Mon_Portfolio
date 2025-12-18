@@ -1,14 +1,15 @@
 import {Linkedin, Mail, Phone, MapPin } from 'lucide-react';
+import imgFond from "../assets/imgFond.jpeg";
 
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
-      <div className="absolute inset-0 bg-[url('/public/assets/hero.jpg')] bg-cover bg-center opacity-15"></div>
+      <div className="absolute inset-0 bg-[url('/src/assets/')] bg-cover bg-center opacity-15"></div>
 
       <div className="relative z-10 max-w-6xl mx-auto px-6 py-20 text-center">
         <div className="mb-8 inline-block">
           <img
-            src="/public/assets/imgFond.jpeg"
+            src={imgFond}
             alt="Mamadou THIAM"
             className="w-48 h-48 rounded-full object-cover border-4 border-blue-500 shadow-2xl mx-auto"
           />
