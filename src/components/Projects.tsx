@@ -56,13 +56,13 @@ export default function Projects() {
             return (
               <div
                 key={index}
-                className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden hover:-translate-y-2"
+                className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col h-full"
               >
                 <div className="bg-gradient-to-br from-blue-500 to-blue-600 h-40 flex items-center justify-center group-hover:from-blue-600 group-hover:to-blue-700 transition-all duration-300">
                   <Icon className="w-24 h-24 text-white opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-300" />
                 </div>
 
-                <div className="p-6">
+                <div className="p-6 flex flex-col flex-grow">
                   <h3 className="text-xl font-bold text-slate-900 mb-3">
                     {project.title}
                   </h3>
@@ -82,7 +82,7 @@ export default function Projects() {
                     ))}
                   </div>
 
-                  <button className="w-full flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-medium transition-colors">
+                  <button className="mt-auto w-full flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-medium transition-colors">
                     <span>Voir le projet</span>
                     <ExternalLink className="w-4 h-4" />
                   </button>
