@@ -2,6 +2,22 @@ import { Briefcase, Calendar, MapPin } from 'lucide-react';
 
 const experiences = [
   {
+  title: 'Content Manager & Social Media Manager (Freelance)',
+  company: 'Mamibi Traiteur',
+  type: 'Freelance',
+  location: 'Dakar, Sénégal',
+  period: '2024 – Present',
+  responsibilities: [
+    'Gestion et animation des pages Facebook et TikTok',
+    'Création de contenus visuels et vidéos promotionnelles',
+    'Mise en place de stratégies marketing pour attirer de nouveaux clients',
+    'Rédaction de publications engageantes et optimisation de la visibilité',
+    'Interaction avec la communauté et gestion des messages clients',
+    'Contribution à l’augmentation de la notoriété et des ventes'
+  ]
+},
+
+  {
     title: 'Instructeur Développeur Web',
     company: 'Gomycode',
     type: 'Temps partiel',

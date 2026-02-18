@@ -6,14 +6,14 @@ const testimonials = [
     role: ' Directeur, SUNU_DOM ',
     content: 'Une excellente collaboration ! M.THIAM a fait preuve d\'une grande rigueur technique et d\'une capacité à résoudre les problèmes rapidement.',
     rating: 5,
-    image: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=300'
+    // image: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=300'
   },
   {
     name: 'M. Ndiaye',
     role: 'Fondateur, IND Location',
     content: 'J\'ai été impressionné par la qualité du code et l\'attention aux détails, notamment sur la partie UI/UX. Le projet a été livré dans les délais.',
     rating: 5,
-    image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=300'
+    // image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=300'
   },
 
 ];
