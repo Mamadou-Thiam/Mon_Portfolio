@@ -23,9 +23,9 @@ export default function Hero() {
           Développeur MERN Stack | Ingénieur Cloud & DevOps
         </p>
 
-        <p className="text-xl md:text-2xl text-blue-400 mb-6 font-light">
+        {/* <p className="text-xl md:text-2xl text-blue-400 mb-6 font-light">
           Administrateur Systèmes | Analyste de données
-        </p>
+        </p> */}
 
         <div className="flex flex-wrap justify-center gap-6 mb-12">
           <a href="mailto:thiammamadou0020@gmail.com" className="flex items-center gap-2 text-gray-300 hover:text-blue-400 transition-colors">
